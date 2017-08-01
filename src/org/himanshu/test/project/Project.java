@@ -17,7 +17,7 @@ public class Project {
 	 * Constructs a new {@code Project}
 	 * 
 	 * @param projectName
-	 *            The name of the project
+	 *            Name of the project
 	 * @param projectDuration
 	 *            Timelimit of the project
 	 * @param numberOfMembers
