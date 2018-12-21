@@ -45,7 +45,7 @@ public class ProjectFileNotFoundException extends ProjectIOException {
 	 * @param message
 	 * @param cause
 	 */
-	private ProjectFileNotFoundException(String path, Throwable cause) {
+	public ProjectFileNotFoundException(String path, Throwable cause) {
 		super(path + ((cause == null)
                 ? ""
                 : " (" + cause + ")"));
